@@ -1,0 +1,43 @@
+.features-section {
+  background-color: #f9f9f9;
+}
+
+.features-section h2 {
+  font-size: 2.5rem;
+  color: #222;
+}
+
+.features-section p {
+  color: #555;
+  line-height: 1.6;
+}
+
+.feature-card {
+  border: none;
+  transition: transform 0.3s, box-shadow 0.3s;
+  background-color: #ffffff;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+.feature-icon {
+  font-size: 3rem;
+  color: #ff7f50;
+}
+
+@media (max-width: 768px) {
+  .features-section h2 {
+    font-size: 2rem;
+  }
+  
+  .features-section p {
+    font-size: 0.95rem;
+  }
+  
+  .feature-icon {
+    font-size: 2.5rem;
+  }
+}

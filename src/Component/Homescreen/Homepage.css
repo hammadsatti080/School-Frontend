@@ -1,0 +1,22 @@
+.homepage {
+  /* Replace this URL with your school image path */
+  
+  height: 100vh; /* full screen height */
+  position: relative;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5); /* semi-transparent dark overlay for readability */
+  border-radius: 10px;
+  max-width: 700px;
+}
+
+@media (max-width: 768px) {
+  .homepage h1 {
+    font-size: 2rem;
+  }
+
+  .homepage p {
+    font-size: 1rem;
+  }
+}

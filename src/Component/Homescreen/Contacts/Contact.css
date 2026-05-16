@@ -1,0 +1,75 @@
+/*.contact-section {
+  background-color: #f4f6f9;
+}
+
+.contact-section h2 {
+  font-size: 2.5rem;
+  color: #222;
+}
+
+.contact-section p {
+  color: #555;
+  line-height: 1.6;
+}
+
+.card {
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+*/
+
+.contact-section {
+  min-height:100vh;
+  background: linear-gradient(120deg, #eef2ff, #f8fafc);
+    
+}
+
+.contact-left {
+  background: linear-gradient(135deg, #4f46e5, #06b6d4);
+  position: relative;
+
+}
+
+.contact-left::before {
+  content: "";
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  background: rgba(255,255,255,0.15);
+  border-radius: 50%;
+  top: -50px;
+  left: -50px;
+}
+
+.contact-card {
+  border: none;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
+
+.contact-card:hover {
+  transform: translateY(-5px);
+}
+
+.form-control {
+  border-radius: 12px;
+  padding: 12px;
+}
+
+.btn-primary {
+  border-radius: 12px;
+  padding: 12px;
+  font-weight: 600;
+  background: linear-gradient(135deg, #4f46e5, #06b6d4);
+  border: none;
+}
+
+.btn-primary:hover {
+  opacity: 0.9;
+}
+
+.text-sec:hover{
+color: #030303;
+}

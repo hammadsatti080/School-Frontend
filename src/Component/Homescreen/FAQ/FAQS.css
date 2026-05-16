@@ -1,0 +1,37 @@
+.faqs-section {
+  background-color: #f8f9fa;
+}
+
+.faqs-section h2 {
+  font-size: 2.5rem;
+  color: #222;
+}
+
+.faqs-section p {
+  color: #555;
+  line-height: 1.6;
+}
+
+.accordion-button {
+  font-weight: 500;
+  color: #0f0f0f;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+.accordion-body {
+  color: #444;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .faqs-section h2 {
+    font-size: 2rem;
+  }
+
+  .faqs-section p {
+    font-size: 0.95rem;
+  }
+}

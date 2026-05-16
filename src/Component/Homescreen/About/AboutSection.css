@@ -1,0 +1,74 @@
+.about-section {
+  background-color: #f9f9f9;
+}
+
+.about-section h2 {
+  font-size: 2.5rem;
+  color: #222;
+}
+
+.about-section h4 {
+  color: #333;
+}
+
+.about-section p {
+  color: #555;
+  line-height: 1.6;
+}
+
+.facility-card img {
+  transition: transform 0.3s;
+}
+
+.facility-card img:hover {
+  transform: scale(1.05);
+}
+
+.facility-card h5 {
+  color: #007bff;
+}
+
+
+/* Container slide from left */
+.slide-in-left {
+  animation: slideLeft 1s ease-out;
+}
+
+@keyframes slideLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-70px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Writing effect */
+.text-write {
+  display: inline-block;
+  animation: textWrite 1.2s ease-out forwards;
+}
+
+@keyframes textWrite {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+    letter-spacing: 2px;
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+    letter-spacing: normal;
+  }
+}
+
+/* Stagger delays */
+.delay-1 {
+  animation-delay: 0.3s;
+}
+
+.delay-2 {
+  animation-delay: 0.6s;
+}
