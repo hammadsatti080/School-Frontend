@@ -199,6 +199,7 @@ const ViewList = () => {
 
   useEffect(() => {
     fetchStudents();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const total = selectedCourses.reduce((sum, c) => sum + c.price, 0);
